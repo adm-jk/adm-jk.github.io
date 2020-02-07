@@ -9,25 +9,25 @@
     西瓜支付自动监控版本配置说明
 </h2>
 
-<h3>
+<!--<h3>
 	Step1:请先在后台收款账户管理->收款监控绑定页面添加一个监控设备，取一个别名方便您的记忆
 	添加成功后如下图所示<br/>
 	<img src="./images/1.png" style="max-width: 1000px;">
-</h3>
+</h3>-->
 <h3>
-	Step2:在收款账户管理->自动收款账户列表页面添加您的监控账号，添加以后都是未绑定的状态。
+	Step1:在收款账户管理->自动收款账户列表页面添加您的监控账号，添加以后都是未绑定的状态。
 	<br/>
 	<img src="./images/2.png" style="max-width: 1000px;">
 </h3>
 <h3>
-	Step3:按如下图示打开监控手机。初始化监控环境。<br/>
+	Step2按如下图示打开监控手机。初始化监控环境。<br/>
     &nbsp;下载相关软件并安装到安卓手机，推荐使用安卓内核版本5-8,xposed较为稳定.，允许后台运行，建议保持屏幕常亮，部分手机屏幕关了可能会导致服务不可用。&nbsp;<br/>
     如果您的手机打开xposed会闪退，请更换手机尝试。并且请关闭系统自动更新。
 </h3>
-<p style="font-size: 24px;color: red">添加设备和收款账号演示:</p>
+<!--<p style="font-size: 24px;color: red">添加设备和收款账号演示:</p>
 <video style='width:1280px;height: 720px;' src="./test2.mp4" controls="controls">
 您的浏览器不支持 video 标签。
-</video>
+</video>-->
 
 <p>
     xposed:<a href="javascript:void(0)" onclick="down('https://agent.xiguapays.com/android/xposed.apk','xposed')">扫码下载</a>
@@ -51,19 +51,19 @@
     安装上述软件并关闭手机系统软件自动更新。手机配置请参考如下视频中支付宝的配置，微信同理。
 </p>
 
-<p style="color: red;font-size: 24px;">监控机配置演示</p>
+<!--<p style="color: red;font-size: 24px;">监控机配置演示</p>
 <video src="./test.mp4" controls="controls">
 您的浏览器不支持 video 标签。
-</video>
+</video>-->
 
-<h3>
+<!--<h3>
 	Step4:按视频配置完成以后，后台对应设备的状态即为在线，且通过测试
 	<br/>
 	<img src="./images/5.png" style="max-width: 1200px;"><br/>
 	<img src="./images/6.png" style="max-width: 1200px;"><br/>
 	<img src="./images/7.png" style="max-width: 1200px;"><br/>
 </h3>
-<p>到此配置结束。</p>
+<p>到此配置结束。</p>-->
 <h3>
     &nbsp;以下是手机监控环境配置图解供参考
 </h3>
@@ -101,21 +101,29 @@
     &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="./images/help/7.png"/>
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="./images/help/8.png"/>
 </p>
-<p>
+<!--<p>
     &nbsp;6.在后台添加设备，获取token
 </p>
 <p>
     &nbsp;<img src="./images/help/9.png"/>
+</p>-->
+<p>
+    &nbsp;6.配置西瓜服务并启动，输入帐号密码点击登录
 </p>
 <p>
-    &nbsp;7.配置西瓜服务并启动，后台即可看到设备在线
+    &nbsp;<img src="./images/help/login.jpg" style="width: 510px"/>
 </p>
 <p>
-    &nbsp;<img src="./images/help/10.png"/>
+    &nbsp;7.绑定监控帐号，绑定前需要先测试支付
 </p>
 <p>
-    &nbsp;8.点击测试支付宝/微信，能够进行收款界面然后闪回到微信/支付宝的首页，则表明可以正常监控。
-
+    &nbsp;<img src="./images/help/bind.jpg" style="width: 510px"/>
+</p>
+<p>
+    &nbsp;8.在设备监控中点击启动监控即可
+</p>
+<p>
+    &nbsp;<img src="./images/help/monitor.jpg" style="width: 510px"/>
 </p>
 
 
